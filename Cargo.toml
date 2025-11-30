@@ -1,6 +1,6 @@
 [package]
 name = "transformator"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A small helper library for CSS-like 3D transformation inheritance and composition"
 keywords = ["rendering", "vector_graphics", "gui", "graphics",]
