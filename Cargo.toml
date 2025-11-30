@@ -1,0 +1,19 @@
+[package]
+name = "transformator"
+version = "0.1.0"
+edition = "2021"
+description = "A small helper library for CSS-like 3D transformation inheritance and composition"
+keywords = ["rendering", "vector_graphics", "gui", "graphics",]
+categories = ["rendering::graphics-api", "gui"]
+authors = ["Anton Suprunchuk <anton.suprunchuk@gmail.com>"]
+license = "Apache-2.0/MIT"
+repository = "https://github.com/antouhou/transformator"
+documentation = "https://docs.rs/transformator/"
+readme = "README.md"
+
+[dependencies]
+euclid = "0.22.11"
+serde = { version = "1.0.228", features = ["derive"], optional = true }
+
+[features]
+serialization = ["serde", "euclid/serde"]
